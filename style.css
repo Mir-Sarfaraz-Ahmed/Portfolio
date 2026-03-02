@@ -223,3 +223,17 @@ transition:0.3s;
 .skill:hover{
 transform:translateY(-3px);
 }
+
+.about-left{
+margin-left:0;
+padding-left:0;
+}
+
+#about h2{
+margin-bottom:30px;
+}
+
+#about{
+padding-top:40px;
+padding-bottom:40px;
+}
