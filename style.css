@@ -275,3 +275,33 @@ width:100%;
 margin-top:15px;
 border-radius:8px;
 }
+
+.project-page{
+max-width:900px;
+margin:50px auto;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-page h1{
+margin-bottom:20px;
+}
+
+.project-page ul{
+margin-top:15px;
+margin-bottom:30px;
+}
+
+.project-images{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.project-images img{
+width:100%;
+max-width:400px;
+border-radius:10px;
+}
