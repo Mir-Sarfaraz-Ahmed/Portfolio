@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<link rel="icon" type="image/png" href="profile.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mir Sarfaraz Ahmed | Portfolio</title>
+<link rel="icon" type="image/png" href="profile.jpg">
 <link rel="stylesheet" href="style.css">
-<meta name="referrer" content="no-referrer">
 </head>
 
 <body>
@@ -21,29 +22,16 @@
 
 <header id="home">
 <div class="hero">
-
-<img src="profile.jpg" class="profile-img">
+<img src="profile.jpg" class="profile-img" alt="Profile">
 
 <div>
 <h1>Mir Sarfaraz Ahmed</h1>
-<p>Aspiring B.Tech CSE Student</p>
+<p>Building practical skills in Web Development & exploring AI technologies.</p>
 
 <div class="socials">
-
-<a href="https://github.com/Mir-Sarfaraz-Ahmed" 
-target="_blank" 
-rel="noopener noreferrer"
-class="social-btn">GitHub</a>
-
-<a href="https://www.linkedin.com/in/mir-sarfaraz-ahmed-367957329/" 
-target="_blank" 
-rel="noopener noreferrer"
-class="social-btn">LinkedIn</a>
-
-<a href="resume.pdf" download class="social-btn">
-Download Resume
-</a>
-
+<a href="https://github.com/Mir-Sarfaraz-Ahmed" target="_blank" class="social-btn">GitHub</a>
+<a href="https://www.linkedin.com/in/mir-sarfaraz-ahmed-367957329/" target="_blank" class="social-btn">LinkedIn</a>
+<a href="resume.pdf" download class="social-btn">Download Resume</a>
 </div>
 </div>
 </div>
@@ -57,36 +45,29 @@ Download Resume
 <div class="about-left">
 <p>
 I am a self-driven Computer Science learner focused on building real-world skills.
-Currently working with <strong>Python, SQL, and foundational HTML</strong>, 
-while expanding into <strong>JavaScript and CSS</strong> to build modern web applications.
+Currently working with <strong>Python, SQL, and foundational HTML</strong>,
+while expanding into <strong>JavaScript and CSS</strong>.
 </p>
 
 <p>
-I started web development out of curiosity — to understand how websites work 
-and to push the limits of what I can create.
+I constantly refine my work until it meets high personal standards.
+Problem-solving and continuous improvement define my learning approach.
 </p>
 
 <p>
-I constantly refine my work until it meets my standards. 
-Problem-solving and continuous improvement define my learning mindset.
-</p>
-
-<p>
-My long-term goal is to create real value through technology, 
-especially in <strong>Artificial Intelligence</strong> and 
+My long-term goal is to build impactful solutions in
+<strong>Artificial Intelligence</strong> and
 <strong>Software Development</strong>.
 </p>
 </div>
 
 <div class="about-right">
 <h3>Core Skills</h3>
-
 <div class="skill">Python</div>
 <div class="skill">SQL</div>
-<div class="skill">HTML (Basics)</div>
+<div class="skill">HTML</div>
 <div class="skill">JavaScript (Learning)</div>
 <div class="skill">CSS (Learning)</div>
-
 </div>
 
 </div>
@@ -98,18 +79,15 @@ especially in <strong>Artificial Intelligence</strong> and
 <div class="project-container">
 
 <div class="project-card">
-<h3>Portfolio Website</h3>
-<p>This is my personal portfolio built using HTML and CSS.</p>
+<h3>Smart Traffic Management System</h3>
+<p>Arduino-based intelligent traffic system with emergency override and fire detection.</p>
 <a href="traffic-project.html" class="btn">View Details</a>
 </div>
 
 <div class="project-card">
-<h3>Smart Traffic Management System</h3>
-<p>
-Arduino-based intelligent traffic control system with IR traffic detection,
-RF emergency override, and vehicle fire detection module.
-</p>
-<button class="btn" onclick="openModal()">View Details</button>
+<h3>Portfolio Website</h3>
+<p>This portfolio built using HTML, CSS and JavaScript.</p>
+<a href="#" class="btn">Live Project</a>
 </div>
 
 </div>
@@ -124,53 +102,20 @@ method="POST"
 class="contact-form">
 
 <input type="text" name="name" placeholder="Your Name" required>
-
 <input type="email" name="email" placeholder="Your Email" required>
-
 <textarea name="message" placeholder="Your Message" required></textarea>
-
 <button type="submit">Send Message</button>
 
 <p id="form-status"></p>
 
 </form>
-
 </section>
-
-<script src="script.js" defer></script>
 
 <footer>
 <p>© 2026 Mir Sarfaraz Ahmed. All Rights Reserved.</p>
 </footer>
 
-<!-- Modal -->
-<div id="projectModal" class="modal">
-<div class="modal-content">
-
-<span class="close" onclick="closeModal()">&times;</span>
-
-<h2>IoT-Based Smart Traffic Management System</h2>
-
-<p>
-Built using Arduino Uno, IR sensors, RF communication, and a gas sensor.
-The system dynamically regulates traffic based on vehicle density,
-prioritizes emergency vehicles, and detects potential fire hazards.
-</p>
-
-<h4>Key Features:</h4>
-<ul>
-<li>IR-based traffic density detection</li>
-<li>Dynamic signal timing adjustment</li>
-<li>RF-based ambulance priority override</li>
-<li>Gas sensor fire alert mechanism</li>
-<li>Real moving vehicle simulation</li>
-</ul>
-
-<img src="traffic1.jpg" class="modal-img">
-<img src="traffic2.jpg" class="modal-img">
-
-</div>
-</div>
+<script src="script.js" defer></script>
 
 </body>
 </html>
