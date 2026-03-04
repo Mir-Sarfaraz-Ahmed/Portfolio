@@ -299,7 +299,7 @@ padding:25px;
 }
 .project-images img {
     transform: rotate(90deg);
-    width: 350px;
+    max-width: 350px;
     height: auto;
-    border-radius: 10px;
 }
+
