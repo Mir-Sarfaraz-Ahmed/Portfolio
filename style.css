@@ -404,11 +404,19 @@ background:#ecf0f1;
 padding:10px 16px;
 border-radius:8px;
 box-shadow:0 3px 8px rgba(0,0,0,0.08);
+transition:0.25s;
+}
+
+.workflow div:hover{
+transform:translateY(-3px);
+box-shadow:0 8px 18px rgba(0,0,0,0.18);
 }
 
 .workflow span{
 font-size:20px;
 font-weight:bold;
 color:#2c3e50;
+margin:0 6px;
 }
+
 
