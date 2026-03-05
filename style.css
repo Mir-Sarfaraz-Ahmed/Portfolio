@@ -369,3 +369,10 @@ width:100%;
 }
 
 }
+.project-page h2{
+margin-top:40px;
+font-size:22px;
+border-left:4px solid #f1c40f;
+padding-left:12px;
+color:#2c3e50;
+}
