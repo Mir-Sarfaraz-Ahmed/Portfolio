@@ -90,7 +90,7 @@ color:#2c3e50;
 section{
 padding:40px 25px;
 margin:25px auto;
-width:calc(100% - 40px);
+max-width:1100px;
 background:white;
 border-radius:12px;
 box-shadow:0 6px 18px rgba(0,0,0,0.08);
@@ -397,6 +397,7 @@ align-items:center;
 gap:12px;
 margin-top:20px;
 font-weight:600;
+text-align:center;
 }
 
 .workflow div{
@@ -416,22 +417,5 @@ box-shadow:0 8px 18px rgba(0,0,0,0.18);
 font-size:20px;
 font-weight:bold;
 color:#2c3e50;
-margin:0 6px;
-}
-
-.workflow{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-items:center;
-gap:12px;
-margin-top:20px;
-font-weight:600;
-text-align:center;
-}
-
-.workflow span{
-font-size:20px;
 margin:0 8px;
 }
-
