@@ -323,16 +323,20 @@ box-shadow:0 6px 12px rgba(0,0,0,0.15);
 
 /* MOBILE RESPONSIVE */
 
+/* MOBILE RESPONSIVE */
+
 @media (max-width:768px){
 
 body{
 padding-top:90px;
 }
 
+/* HERO */
 .hero{
 flex-direction:column;
 }
 
+/* ABOUT SECTION */
 .about-wrapper{
 flex-direction:column;
 align-items:stretch;
@@ -352,12 +356,14 @@ margin-top:10px;
 box-sizing:border-box;
 }
 
+/* SECTIONS */
 section{
 margin:12px;
 padding:20px;
 width:auto;
 }
 
+/* NAVBAR */
 nav ul{
 flex-direction:row;
 justify-content:center;
@@ -369,12 +375,28 @@ nav a{
 font-size:15px;
 }
 
+/* SKILLS */
 .skill{
 font-size:14px;
 padding:9px;
 }
 
+/* PROJECT IMAGES */
 .project-images img{
+width:100%;
+}
+
+/* WORKFLOW FIX FOR MOBILE */
+.workflow{
+grid-template-columns:1fr;
+gap:12px;
+}
+
+.workflow span{
+display:none;
+}
+
+.workflow div{
 width:100%;
 }
 
@@ -417,3 +439,4 @@ box-shadow:0 8px 18px rgba(0,0,0,0.18);
 font-size:20px;
 color:#2c3e50;
 }
+
