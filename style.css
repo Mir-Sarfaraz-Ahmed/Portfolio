@@ -205,7 +205,7 @@ flex-wrap:wrap;
 }
 
 .project-images img{
-width:280px;
+width:340px;
 border-radius:12px;
 transition:transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -216,7 +216,7 @@ box-shadow:0 12px 25px rgba(0,0,0,0.25);
 }
 
 .project-images img{
-width:260px;
+width:340px;
 border-radius:12px;
 transition:transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -353,9 +353,10 @@ gap:10px;
 .tech-stack span{
 background:#34495e;
 color:white;
-padding:6px 12px;
+padding:6px 14px;
 border-radius:20px;
 font-size:13px;
+font-weight:500;
 }
 
 .project-page h2{
@@ -364,3 +365,4 @@ font-size:22px;
 border-left:4px solid #f1c40f;
 padding-left:10px;
 }
+
