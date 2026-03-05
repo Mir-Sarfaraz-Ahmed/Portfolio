@@ -383,7 +383,15 @@ text-align:left;
 
 .about-right{
 width:100%;
-margin-top:10px;
+max-width:100%;
+padding:20px;
+margin-top:15px;
+box-sizing:border-box;
+}
+
+.skill{
+font-size:14px;
+padding:9px;
 }
 
 section{
@@ -409,3 +417,4 @@ font-size:15px;
 }
 
 }
+
