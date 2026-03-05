@@ -321,35 +321,17 @@ transform:translateY(-3px);
 box-shadow:0 6px 12px rgba(0,0,0,0.15);
 }
 
-/* SYSTEM WORKFLOW */
+/* WORKFLOW IMAGE */
 
-.workflow{
-display:grid;
-grid-template-columns:repeat(4,auto);
-justify-content:center;
-align-items:center;
-gap:18px 12px;
-margin-top:25px;
+.workflow-image{
 text-align:center;
-font-weight:600;
+margin-top:20px;
 }
 
-.workflow div{
-background:#ecf0f1;
-padding:10px 16px;
-border-radius:8px;
-box-shadow:0 3px 8px rgba(0,0,0,0.08);
-transition:0.25s;
-}
-
-.workflow div:hover{
-transform:translateY(-3px);
-box-shadow:0 8px 18px rgba(0,0,0,0.18);
-}
-
-.workflow span{
-font-size:20px;
-color:#2c3e50;
+.workflow-image img{
+max-width:100%;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
 }
 
 /* MOBILE RESPONSIVE */
@@ -430,3 +412,4 @@ padding-left:12px;
 margin-top:35px;
 line-height:1.3;
 }
+
