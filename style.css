@@ -23,6 +23,7 @@ z-index:1000;
 nav ul{
 display:flex;
 justify-content:center;
+flex-wrap:wrap;
 list-style:none;
 margin:0;
 padding:0;
@@ -327,19 +328,9 @@ width:100%;
 margin-top:20px;
 }
 
-nav ul{
-flex-direction:column;
-gap:10px;
-}
-
 section{
 margin:15px;
 padding:25px;
-}
-
-.project-images{
-flex-direction:column;
-align-items:center;
 }
 }
 
@@ -365,4 +356,5 @@ font-size:22px;
 border-left:4px solid #f1c40f;
 padding-left:10px;
 }
+
 
