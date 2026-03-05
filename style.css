@@ -216,11 +216,6 @@ transform:scale(1.06);
 box-shadow:0 12px 25px rgba(0,0,0,0.25);
 }
 
-.project-images img:hover{
-transform:scale(1.05);
-box-shadow:0 10px 20px rgba(0,0,0,0.2);
-}
-
 /* MEDIA (VIDEO + PDF) */
 .media-box{
 margin-top:25px;
@@ -333,7 +328,7 @@ padding:25px;
 nav ul{
 flex-direction:row;
 justify-content:center;
-felx-wrap:wrap;
+flex-wrap:wrap;
 gap:15px;
 }
 /* FIX NAVBAR ON MOBILE */
@@ -374,6 +369,7 @@ font-size:22px;
 border-left:4px solid #f1c40f;
 padding-left:10px;
 }
+
 
 
 
