@@ -221,10 +221,19 @@ margin-top:25px;
 text-align:center;
 }
 
+/* WORKFLOW IMAGE */
+
+.workflow-image{
+margin-top:25px;
+text-align:center;
+}
+
 .workflow-image img{
+display:block;
 width:100%;
-max-width:750px;
+max-width:100%;
 height:auto;
+margin:auto;
 border-radius:12px;
 box-shadow:0 6px 18px rgba(0,0,0,0.15);
 }
@@ -400,6 +409,7 @@ padding:9px;
 width:100%;
 }
 }
+
 
 
 
