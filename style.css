@@ -214,6 +214,21 @@ border-radius:12px;
 box-shadow:0 6px 18px rgba(0,0,0,0.1);
 }
 
+/* WORKFLOW IMAGE */
+
+.workflow-image{
+margin-top:25px;
+text-align:center;
+}
+
+.workflow-image img{
+width:100%;
+max-width:750px;
+height:auto;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+}
+
 .project-page ul{
 margin-top:15px;
 margin-bottom:30px;
@@ -385,6 +400,7 @@ padding:9px;
 width:100%;
 }
 }
+
 
 
 
