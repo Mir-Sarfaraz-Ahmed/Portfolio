@@ -4,126 +4,196 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Smart Traffic Management System</title>
+<title>Smart Traffic Management System | Mir Sarfaraz Ahmed</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- SCROLL TO TOP -->
+<button id="scrollTop" aria-label="Scroll to top">↑</button>
+
 <!-- NAVBAR -->
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="index.html#about">About</a></li>
-<li><a href="index.html#projects">Projects</a></li>
-<li><a href="index.html#contact">Contact</a></li>
-</ul>
+<nav id="navbar">
+  <ul>
+    <li><a href="index.html"         class="nav-link">Home</a></li>
+    <li><a href="index.html#about"   class="nav-link">About</a></li>
+    <li><a href="index.html#projects"class="nav-link">Projects</a></li>
+    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+  </ul>
 </nav>
 
-<!-- PROJECT CONTENT -->
+
+<!-- ═══ PROJECT CONTENT ═══ -->
 <section class="project-page">
 
-<h1>IoT-Based Smart Traffic Management System (V2I)</h1>
+  <a href="index.html" class="back-btn">Back to Portfolio</a>
 
-<p>
-An Arduino Uno powered intelligent traffic control model using IR sensors
-for density detection, RF-based ambulance priority override,
-and gas sensor-based fire detection system.
-</p>
+  <h1>IoT-Based Smart Traffic Management System (V2I)</h1>
 
-<div class="tech-stack">
-<span>Arduino</span>
-<span>IoT</span>
-<span>IR Sensors</span>
-<span>RF Communication</span>
-<span>Gas Sensor</span>
-</div>
+  <p>
+    An Arduino Uno powered intelligent traffic control model using IR sensors
+    for density detection, RF-based ambulance priority override,
+    and a gas sensor-based fire detection system. Awarded
+    <strong>1st place at Zonal</strong> and <strong>2nd at District</strong> level.
+  </p>
 
-<h2>Key Features</h2>
-<hr>
+  <div class="tech-stack">
+    <span>Arduino Uno</span>
+    <span>IoT</span>
+    <span>IR Sensors</span>
+    <span>RF Communication</span>
+    <span>Gas Sensor</span>
+    <span>Relay Module</span>
+  </div>
 
-<h2>System Architecture</h2>
 
-<ul>
-<li>Arduino Uno as central controller</li>
-<li>IR sensors for vehicle density detection</li>
-<li>RF transmitter/receiver module for emergency override</li>
-<li>Gas sensor for fire detection</li>
-<li>Signal timing algorithm based on traffic intensity</li>
-</ul>
+  <!-- ── KEY FEATURES ── -->
+  <!-- BUG FIX: This section was empty (no content between h2 and hr) -->
+  <h2>Key Features</h2>
 
-<hr>
+  <div class="features-grid">
 
-<h2>System Workflow</h2>
+    <div class="feature-card">
+      <div class="icon">📡</div>
+      <h4>Real-Time Density Detection</h4>
+      <p>IR sensors at intersections continuously count vehicles and measure traffic density on each lane.</p>
+    </div>
 
-<div class="workflow-image">
-<img src="workflow.png" alt="Smart Traffic System Workflow">
-</div>
+    <div class="feature-card">
+      <div class="icon">⏱️</div>
+      <h4>Dynamic Signal Timing</h4>
+      <p>Arduino adjusts green light duration based on live sensor data — busy lanes get longer green time automatically.</p>
+    </div>
 
-<hr>
+    <div class="feature-card">
+      <div class="icon">🚑</div>
+      <h4>Emergency RF Override</h4>
+      <p>RF transmitter on the ambulance broadcasts a signal; the receiver module instantly switches the junction to green, clearing the path.</p>
+    </div>
 
-<h2>My Role in the Project</h2>
+    <div class="feature-card">
+      <div class="icon">🔥</div>
+      <h4>Fire / Gas Detection</h4>
+      <p>Gas sensor detects smoke or hazardous gases and triggers an emergency all-red halt to protect road users.</p>
+    </div>
 
-<ul>
-<li>Designed and built the mechanical traffic model</li>
-<li>Integrated IR sensors with Arduino Uno</li>
-<li>Implemented RF-based emergency vehicle prioritization</li>
-<li>Collaborated on presentation and documentation</li>
-</ul>
+    <div class="feature-card">
+      <div class="icon">🔁</div>
+      <h4>Autonomous Operation</h4>
+      <p>The system runs continuously without human intervention, cycling through lanes and responding to events in real time.</p>
+    </div>
 
-<!-- IMAGES -->
-<div class="project-images">
-<img src="traffic1.jpg" alt="Traffic Model 1">
-<img src="traffic2.jpg" alt="Traffic Model 2">
-</div>
+    <div class="feature-card">
+      <div class="icon">⚡</div>
+      <h4>Low-Cost Hardware</h4>
+      <p>Built entirely on affordable, off-the-shelf components — Arduino, IR LEDs, and 27 MHz RF modules — making it highly scalable.</p>
+    </div>
 
-<hr>
+  </div>
 
-<h2>Virtual Demonstration</h2>
+  <hr>
 
-<div class="media-box">
+  <!-- ── SYSTEM ARCHITECTURE ── -->
+  <h2>System Architecture</h2>
 
-<video controls>
-<source src="emergency-demo.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+  <ul>
+    <li><strong>Arduino Uno</strong> — central microcontroller running the traffic logic</li>
+    <li><strong>IR Sensors</strong> — placed per lane to detect vehicle presence and queue length</li>
+    <li><strong>RF Transmitter / Receiver (27 MHz)</strong> — emergency vehicle communication module</li>
+    <li><strong>Gas Sensor (MQ-series)</strong> — detects smoke and hazardous gases</li>
+    <li><strong>Relay Module</strong> — switches high-power signal LEDs from Arduino's low-power output</li>
+    <li><strong>Signal Timing Algorithm</strong> — proportional green time based on queue density</li>
+  </ul>
 
-<p class="media-caption">
-Demonstration of RF-based emergency vehicle override system.
-The traffic light automatically switches to green for the approaching ambulance.
-</p>
+  <hr>
 
-</div>
+  <!-- ── WORKFLOW ── -->
+  <h2>System Workflow</h2>
 
-<hr>
+  <div class="workflow-image">
+    <img src="workflow.png" alt="Smart Traffic System Workflow Diagram">
+  </div>
 
-<h2>Project Presentation</h2>
+  <hr>
 
-<div class="media-box">
+  <!-- ── MY ROLE ── -->
+  <h2>My Role in the Project</h2>
 
-<p>
-Detailed project explanation including system architecture,
-working mechanism, circuit design, and implementation strategy.
-</p>
+  <ul>
+    <li>Designed and physically built the mechanical traffic model (roads, buildings, signal poles)</li>
+    <li>Integrated IR sensors with Arduino Uno and wrote the density-based timing algorithm</li>
+    <li>Implemented and tested the RF-based emergency vehicle prioritization system</li>
+    <li>Wired and tested the relay module for signal LED switching</li>
+    <li>Collaborated on project presentation and technical documentation</li>
+  </ul>
 
-<a href="ppt.pdf" target="_blank" class="btn">
-View Full Presentation (PDF)
-</a>
+  <!-- ── PROJECT IMAGES ── -->
+  <div class="project-images">
+    <img src="traffic1.jpg" alt="Smart Traffic Model — Front View">
+    <img src="traffic2.jpg" alt="Smart Traffic Model — Side View">
+  </div>
 
-<br><br>
+  <hr>
 
-<embed src="ppt.pdf"
-type="application/pdf"
-width="100%"
-height="600px">
+  <!-- ── DEMO VIDEO ── -->
+  <h2>Virtual Demonstration</h2>
 
-</div>
+  <div class="media-box">
+    <video controls>
+      <source src="emergency-demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="media-caption">
+      Demonstration of the RF-based emergency vehicle override system.
+      The traffic light automatically switches to green for the approaching ambulance,
+      clearing the intersection within seconds of signal detection.
+    </p>
+  </div>
+
+  <hr>
+
+  <!-- ── PRESENTATION ── -->
+  <h2>Project Presentation</h2>
+
+  <div class="media-box">
+    <p style="margin-bottom:16px; color:#6b7280; font-size:15px;">
+      Full slide deck covering system architecture, working mechanism,
+      circuit design, competition results, and implementation strategy.
+    </p>
+
+    <a href="ppt.pdf" target="_blank" class="btn">
+      Open Full Presentation (PDF) ↗
+    </a>
+
+    <br><br>
+
+    <embed src="ppt.pdf"
+           type="application/pdf"
+           width="100%"
+           height="600px">
+  </div>
 
 </section>
 
+
 <footer>
-<p>© 2026 Mir Sarfaraz Ahmed</p>
+  <p>© 2026 <span>Mir Sarfaraz Ahmed</span>. All Rights Reserved.</p>
 </footer>
+
+
+<script>
+  /* Scroll-to-top for project page */
+  const btn = document.getElementById('scrollTop');
+  const nav = document.getElementById('navbar');
+
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('show', window.scrollY > 400);
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+  }, { passive: true });
+
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
 
 </body>
 </html>
